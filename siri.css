@@ -1,0 +1,8 @@
+nav {
+    /* (Your existing styles) */
+    display: none; /* Initially hide the navigation */
+}
+
+nav.show {
+    display: block; /* Show the navigation when 'show' class is present */
+}

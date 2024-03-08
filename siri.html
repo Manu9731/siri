@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siri Souharda Bank</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        header img {
+            max-width: 120px;
+            height: auto;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        header h1 {
+            margin-top: 60px;
+        }
+
+        nav {
+            background-color: #007BFF;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #004080;
+        }
+
+        section {
+            padding: 50px 30px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #007BFF;
+        }
+
+        section p {
+            color: #555;
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .advertisement-box {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.png" alt="Siri Souharda Bank Logo">
+        <h1>Siri Souharda Bank</h1>
+        <p>Your Trusted Financial Partner</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Services</a>
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <section>
+        <h2>Welcome to Siri Souharda Bank</h2>
+        <p>Your journey to financial success starts here. We are committed to providing excellent services tailored to your needs.</p>
+
+        <div class="advertisement-box">
+            <h3>Special Offer</h3>
+            <p>Open a new account today and enjoy exclusive benefits. Limited time offer!</p>
+        </div>
+
+        <div class="advertisement-box">
+            <h3>Mortgage Options</h3>
+            <p>Explore our competitive mortgage rates and find the perfect home financing solution for you.</p>
+        </div>
+
+        <div class="advertisement-box finance">
+            <h3>Financial Planning</h3>
+            <p>Secure your future with our expert financial planning services. Start planning for success!</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Siri Souharda Bank. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Example</title>
+</head>
+<body>
+
+<!-- Dropdown menu -->
+<select id="myDropdown" onchange="handleDropdownChange(this)">
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+    <option value="option3">Option 3</option>
+    <!-- Add more options as needed -->
+</select>
+
+<script src="siri.js">
+    function handleDropdownChange(selectElement) {
+        var selectedValue = selectElement.value;
+        alert("Selected option: " + selectedValue);
+    }
+</script>
+
+</body>
+</html>
+
